@@ -2,7 +2,7 @@
 //#3 assignement: pattern
 //Matteo Testa
 
-var dista = 20;
+var dista = 10;
 var ray;
 var c;
 
