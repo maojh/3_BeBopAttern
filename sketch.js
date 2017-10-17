@@ -76,7 +76,7 @@ function draw() {
   rect(width-ray, 0, ray*2, height);
 
   //noLoop();
-  textSize(16);
+  textSize(18);
   textStyle(ITALIC);
   fill(map(sin(frameCount), 0, 1, 150, 250));
   text("Click for Density", width/3, height-20);
