@@ -2,7 +2,7 @@
 //#3 assignement: pattern
 //Matteo Testa
 
-var dista = 17;
+var dista = 20;
 var ray;
 var c;
 
@@ -76,10 +76,10 @@ function draw() {
   rect(width-ray, 0, ray*2, height);
 
   //noLoop();
-  textSize(20);
+  textSize(12);
   textStyle(ITALIC);
   fill(map(sin(frameCount), 0, 1, 50, 200));
-  text("Click for Density", width/4, height-20);
+  text("Click for Density", width/5, height-20);
 }
 
 function mousePressed() {
