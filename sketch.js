@@ -7,7 +7,7 @@ var ray;
 var c;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
   background(0);
 
   ray = dista/3;
