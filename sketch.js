@@ -79,7 +79,7 @@ function draw() {
   textSize(30);
   textStyle(ITALIC);
   fill(map(sin(frameCount), 0, 1, 50, 200));
-  text("Click for Density", width/2, height-30);
+  text("Click for Density", width/3, height-20);
 }
 
 function mousePressed() {
