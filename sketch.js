@@ -76,10 +76,10 @@ function draw() {
   rect(width-ray, 0, ray*2, height);
 
   //noLoop();
-  textSize(14);
+  textSize(16);
   textStyle(ITALIC);
   fill(map(sin(frameCount), 0, 1, 150, 250));
-  text("Click for Density", width/4, height-20);
+  text("Click for Density", width/3, height-20);
 }
 
 function mousePressed() {
