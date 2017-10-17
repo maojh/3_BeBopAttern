@@ -78,7 +78,7 @@ function draw() {
   //noLoop();
   
   fill(map(sin(framecount), 0, 1, 50, 200));
-  text("Click for Density", width/2, height-30));
+  text("Click for Density", width/2, height-30);
 }
 
 function mousePressed() {
