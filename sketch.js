@@ -83,6 +83,6 @@ function draw() {
 }
 
 function mousePressed() {
-  dista -= 5;
+  dista -= 10;
   if(dista <= 1) dista = 20;
 }
