@@ -2,7 +2,7 @@
 //#3 assignement: pattern
 //Matteo Testa
 
-var dista = 10;
+var dista = 15;
 var ray;
 var c;
 
@@ -82,6 +82,6 @@ function draw() {
 }
 
 function mousePressed() {
-  dista--;
-  if(dista == 1) dista = 15;
+  dista -= 5;
+  if(dista == 1) dista = 20;
 }
