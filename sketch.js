@@ -14,7 +14,7 @@ function setup() {
   noStroke();
   smooth();
   c = 1;
-  frameRate(1);
+  frameRate(2);
 }
 
 var px;
@@ -52,7 +52,7 @@ function draw() {
       if(i%c) {
         noisy = noise(h*w)*235+35;
         px += ray;
-        fill(noisy/8, noisy, noisy/8);
+        fill(noisy/10, noisy, noisy/10);
         ellipse(px, h, ray, ray);
       } else {
         noisy = noise(h*w)*235+35;
