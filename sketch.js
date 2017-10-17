@@ -50,7 +50,7 @@ function draw() {
     for (var h = ray*2; h < height+ray; h += ray*2) {
       px = w;
       if(i%c) {
-        noisy = noise(h*w)*235+35;
+        noisy = noise(h*w)*245+15;
         px += ray;
         fill(noisy/10, noisy, noisy/10);
         ellipse(px, h, ray, ray);
