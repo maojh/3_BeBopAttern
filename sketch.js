@@ -76,4 +76,12 @@ function draw() {
   rect(width-ray, 0, ray*2, height);
 
   //noLoop();
+  
+  fill(map(sin(framecount), 0, 1, 50, 200);
+  text("Click for Density", width/2, height-30);
+}
+
+function mousePressed() {
+  dista--;
+  if(dista == 1) dista = 15;
 }
